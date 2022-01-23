@@ -1,0 +1,41 @@
+.container {
+  width: 200px;
+  margin: 100px auto;
+}
+
+#display {
+  text-align: right;
+  font-size: 20px;
+  background: rgb(63, 60, 60);
+  color: white;
+  padding: 10px 5px;
+  height: 30px;
+}
+#buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+.button {
+  background: rgb(226, 223, 223);
+  text-align: center;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding: 15px;
+  cursor: pointer;
+}
+.button:hover {
+  background: black;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+#equal {
+  background: blue;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(69, 85, 85);
+}
